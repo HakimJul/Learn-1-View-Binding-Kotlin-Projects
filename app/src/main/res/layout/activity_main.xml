@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn.find_view_by_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find View By ID" />
+
+    <Button
+        android:id="@+id/btn.kotlin_sintetik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kotlin Sintetik" />
+
+    <Button
+        android:id="@+id/btn.view_binding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Binding" />
+
+</LinearLayout>
